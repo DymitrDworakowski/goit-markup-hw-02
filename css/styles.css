@@ -1,28 +1,39 @@
 a {
     text-decoration: none;
 }
-
+/* body */
+body {
+    font-family:'Roboto';
+    color: #212121;
+}
 /* logoWeb */
 .logo-link {
     font-family: 'Raleway';
     font-weight: 700;
     color: #000000;
 }
-.logo-link-span{
+.logo-link-span {
     font-family: 'Raleway';
     font-weight: 700;
     color: #2196F3;
 }
-
+/* nav */
 .nav-link {
-    font-family: 'Roboto';
     font-weight: 500;
     cursor: pointer;
-    color: #212121;
 }
-
 .nav-link:hover,
 .nav-link:focus {
+    color: #2196F3;
+}
+/* kontakty */
+.contacts {
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+}
+.contacts:hover,
+.contacts:focus{
     color: #2196F3;
 }
 
