@@ -1,11 +1,32 @@
+a {
+    text-decoration: none;
+}
+
 /* logoWeb */
-.Web {}
+.logo-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #000000;
+}
+.logo-link-span{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2196F3;
+}
 
-.nav-link {}
+.nav-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    cursor: pointer;
+    color: #212121;
+}
 
-.allButton {}
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3;
+}
 
-.buttonslink {}
+.buttons-link {}
 
 .projektyLinkStyle {}
 
