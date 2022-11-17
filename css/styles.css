@@ -1,10 +1,6 @@
 a {
     text-decoration: none;
 }
-/* varible */
-:root{
-    --color-perewaga: #757575;
-}
 /* body */
 body {
     font-family:'Roboto';
@@ -24,6 +20,7 @@ body {
 /* nav */
 .nav-link {
     font-weight: 500;
+    cursor: pointer;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -39,30 +36,8 @@ body {
 .contacts:focus{
     color: #2196F3;
 }
-.h1{
-    font-style: normal;
-    font-weight: 900;
-}
-.button-main{
-    font-style: normal;
-    font-weight: 700;
-    cursor: pointer;
-}
-.adres{
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-.adres:hover,
-.adres:focus{
-    color: #2196F3;
-}
-.buttons-link {
-    color: #212121;}
-.buttons-link:hover,
-.buttons-link:focus{
-    color: #2196F3;
-}
+
+.buttons-link {}
 
 .projektyLinkStyle {}
 
